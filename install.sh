@@ -1,8 +1,5 @@
 set -euo pipefail
 
-#curl https://raw.githubusercontent.com/ticat-mods/tidb/main/hub.ticat
-#exit
-
 function check_cmd_exists()
 {
 	local cmd="${1}"
