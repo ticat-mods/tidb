@@ -1,5 +1,4 @@
-# tidb
-tidb modules
+# tidb on ticat
 
 ## Installing
 ```
