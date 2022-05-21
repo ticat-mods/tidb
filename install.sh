@@ -111,4 +111,4 @@ function download_and_install_ticat()
 	echo -e "    ${gray}try:   $> ./ticat selftest.tpcc"
 }
 
-download_and_install_ticat 'H63BqrharW9OTUp3xEI95xEi8fbBle0Cv36u'
+download_and_install_ticat 'NYrOv0JuQ8iZ6cEnOTzdaTfh7ovx2Q2iwEQX'
