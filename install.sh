@@ -108,7 +108,7 @@ function download_and_install_ticat()
 	echo -e "    ${gray}ticat: workflow automating in unix-pipe style${nc}"
 	echo -e "    ${gray}tidb:  ready in ticat${nc}"
 	echo
-	echo -e "    ${gray}try:   $> ./ticat selftest.tpcc"
+	echo -e "    ${gray}try:   $> ./ticat selftest.tpcc${nc}"
 }
 
 download_and_install_ticat 'NYrOv0JuQ8iZ6cEnOTzdaTfh7ovx2Q2iwEQX'
