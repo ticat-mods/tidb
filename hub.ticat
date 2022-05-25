@@ -3,3 +3,4 @@ help = TiDB modules for ticat
 [repos]
 https://github.com/ticat-mods/tidb.cluster = Cluster toolbox for TiDB on ticat
 https://github.com/ticat-mods/tidb.bench = Benchmark toolbox for TiDB on ticat
+https://github.com/ticat-mods/tidb.pool = Integrating resource pool(s) for TiDB
