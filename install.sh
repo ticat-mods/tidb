@@ -100,10 +100,11 @@ function download_and_install_ticat()
 	./ticat display.color.on : install.tiup 2>&1 | awk '{print "    * "$0}'
 
 	echo
-	echo -e "${title}==> [optional] install mysql and sshpass${nc}"
+	echo -e "${title}==> [optional] install tools: mysql, sshpass, ifconfig${nc}"
 	set +e
 	./ticat display.color.on : install.cmd mysql 2>&1 | awk '{print "    * "$0}'
 	./ticat display.color.on : install.cmd sshpass 2>&1 | awk '{print "    * "$0}'
+	./ticat display.color.on : install.cmd ifconfig net-tools 2>&1 | awk '{print "    * "$0}'
 	set -e
 
 	echo
