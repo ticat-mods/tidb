@@ -1,11 +1,12 @@
-# tidb on ticat
+# TiDB on ticat
 
-## Installing
+## Installing (All platform)
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/ticat-mods/tidb/main/install.sh | sh
 ```
 
-## The installing depends on `git`, the one line command installing on CentOs:
+## Installing (CentOS)
+The script depends on `git`, install it first:
 ```
 sudo yum install git -y && curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/ticat-mods/tidb/main/install.sh | sh
 ```
